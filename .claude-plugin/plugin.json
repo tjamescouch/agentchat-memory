@@ -1,0 +1,11 @@
+{
+  "name": "agentchat-memory",
+  "version": "0.1.0",
+  "description": "Persistent memory for AgentChat agents with swim-lane summarization and persona mining",
+  "author": "James Couch",
+  "repository": "https://github.com/tjamescouch/agentchat-memory",
+  "keywords": ["agentchat", "memory", "persistence", "persona"],
+  "claudeConfig": {
+    "mcp": ".mcp.json"
+  }
+}

@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Private keys - NEVER commit
+identity.json
+identities/
+*.pem
+*.key
+
+# Agent state (may contain sensitive info)
+agents/*/memory.json
+
+# Backups
+backups/

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "agentchat-memory": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "${pluginDir}"
+    }
+  }
+}

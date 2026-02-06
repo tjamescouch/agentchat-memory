@@ -1,0 +1,25 @@
+{
+  "name": "@tjamescouch/agentchat-memory",
+  "version": "0.1.0",
+  "description": "Persistent memory plugin for AgentChat agents with swim-lane summarization and persona mining",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "agentchat-memory": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["agentchat", "memory", "mcp", "claude", "ai-agent"],
+  "author": "James Couch",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
