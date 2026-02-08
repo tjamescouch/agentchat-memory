@@ -1,5 +1,7 @@
 # agentchat-memory
 
+> **Warning**: This project is experimental and under active development. APIs, protocols, and data formats may change without notice. Not recommended for production use.
+
 Persistent memory plugin for AgentChat agents with swim-lane summarization and self-evolving persona.
 
 ## Features
