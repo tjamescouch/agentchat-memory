@@ -95,6 +95,10 @@ await memory_add_message({ agent_id: "God", role: "user", content: "..." });
 await memory_save({ agent_id: "God" });
 ```
 
+## Responsible Use
+
+This software is experimental and provided as-is. It is intended for research, development, and authorized testing purposes only. Users are responsible for ensuring their use complies with applicable laws and regulations. Do not use this software to build systems that make autonomous consequential decisions without human oversight.
+
 ## License
 
 MIT
